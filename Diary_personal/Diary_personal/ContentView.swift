@@ -14,8 +14,11 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+        }.textCase(Text.Case?)
+        VStack{
+            
         }
-        .padding()
+       
     }
 }
 
